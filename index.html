@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/4aa450a08a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Create a Random Password</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Generate a <br />
+        <span>Random Password</span>
+      </h1>
+      <div class="display">
+        <input type="text" id="password" placeholder="Password" />
+        <img src="./Images/download.png" alt="" onclick="copyPassword()" />
+      </div>
+      <button onclick="createPassword() ">
+        <i class="fa-solid fa-bolt"></i> &nbsp; Generate Password
+      </button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
